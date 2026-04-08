@@ -1,7 +1,9 @@
+import Router from "@/Routes/Router";
+
 const App = () => {
   return (
     <div>
-      <p className="text-red-500">Hello world</p>
+      <Router />
     </div>
   );
 };
